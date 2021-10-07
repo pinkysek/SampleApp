@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{D8827611-BEB5-4EC5-AA92-354A88054D0F}</ProjectGuid>
+    <ProjectGuid>{61BEBCCB-86DE-4700-B1F5-84B8CD863938}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>UWP</RootNamespace>
-    <AssemblyName>UWP</AssemblyName>
+    <RootNamespace>SampleApp.UWP.Blank</RootNamespace>
+    <AssemblyName>SampleApp.UWP.Blank</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
     <TargetPlatformVersion Condition=" '$(TargetPlatformVersion)' == '' ">10.0.19041.0</TargetPlatformVersion>
