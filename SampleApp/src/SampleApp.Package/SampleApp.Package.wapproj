@@ -62,7 +62,7 @@
     <GenerateTestArtifacts>True</GenerateTestArtifacts>
     <AppxBundlePlatforms>x86</AppxBundlePlatforms>
     <HoursBetweenUpdateChecks>0</HoursBetweenUpdateChecks>
-    <EntryPointProjectUniqueName>..\SampleApp.UWP.Blank\SampleApp.UWP.Blank.csproj</EntryPointProjectUniqueName>
+    <EntryPointProjectUniqueName>..\SampleApp.UWP\SampleApp.UWP.csproj</EntryPointProjectUniqueName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|ARM'">
     <AppxBundle>Always</AppxBundle>
@@ -114,6 +114,6 @@
     <PackageReference Include="Microsoft.Windows.SDK.BuildTools" Version="10.0.19041.8" PrivateAssets="all" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\SampleApp.UWP.Blank\SampleApp.UWP.Blank.csproj" />
+    <ProjectReference Include="..\SampleApp.UWP\SampleApp.UWP.csproj" />
   </ItemGroup>
 </Project>
